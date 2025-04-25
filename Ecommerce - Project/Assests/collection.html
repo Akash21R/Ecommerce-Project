@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TrendVault</title>
+        <!-- link style css -->
+        <link rel="stylesheet" href="./Css/style.css">
+        <!-- link google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kavivanar&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <!-- link fontawesome cdn -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- link favicon -->
+         <link rel="shortcut icon" href="./Img/favicon.png" type="image/x-icon">
+
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar">
+            <h1 style="color: #1D232c; cursor: pointer;">Wearloft</h1>
+
+            <ul class="nav-links">
+
+                <li class="nav-link"> <a href="./Index.html">Home</a></li>
+                <li class="nav-link"> <a
+                        href="./collection.html">Collections</a></li>
+                <li class="nav-link"> <a href="./contact.html">Contact</a></li>
+
+            </ul>
+            <div style="gap: 20px; display: flex; cursor: pointer;">
+                <div> <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <div class="navbar-togglebar" onclick="sidenav()">
+                <i class="fa-solid  fa-bars"></i>
+            </div>
+        </nav>
+        <!-- sidenavbar -->
+        <div class="side-navbar">
+            <p style="text-align: right; font-size: large;"
+                onclick="closenav()">
+                <i class="fa-solid fa-xmark"></i>
+            </p>
+            <div>
+                <ul class="side-navbar-links">
+                    <li><a href="./Index.html">Home</a></li>
+                    <li><a href="./collection.html">Collections</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- section-one -->
+        <section>
+            <div class="product-section-container">
+                <form class="product-search">
+                    <input type="text" id="search" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+
+                <div class="products" id="product">
+
+                    <div class="product-img-box">
+                        <img src="./Img/img4.png" alt>
+                        <p>Shirts</p>
+                    </div>
+                    <div class="product-img-box">
+                        <img src="./Img/img5.png" alt>
+                        <p>Coat Suit</p>
+                    </div>
+                    <div class="product-img-box">
+                        <img src="./Img/img6.png" alt>
+                        <p>Jackets</p>
+                    </div>
+                    <div class="product-img-box">
+                        <img src="./Img/img7.png" alt>
+                        <p>Oversized Shirts</p>
+                    </div>
+                    <div class="product-img-box">
+                        <img src="./Img/img8.png" alt>
+                        <p>Kurtis</p>
+                    </div>
+                    <div class="product-img-box">
+                        <img src="./Img/img1.png" alt>
+                        <p>CropTop</p>
+                    </div>
+                    <div class="product-img-box">
+                        <img src="./Img/img3.png" alt>
+                        <p>Oversized Jackets</p>
+                    </div>
+                    <div class="product-img-box">
+                        <img src="./Img/img5.png" alt>
+                        <p>Oversized Coat</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- footer-section -->
+        <section class="footer-bg">
+            <div class="footer-details">
+                <h1>TrendVault</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing || &#169;
+                    2025 TrendVault Licensed.</p>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-linkedin" style="color: white;"></i>
+                    <i class="fa-brands fa-github" style="color: white;"></i>
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+
+                </div>
+            </div>
+        </section>
+
+        <script src="./Js/collection.js"></script>
+        <script src="./Js/index.js"></script>
+    </body>
+</html>
