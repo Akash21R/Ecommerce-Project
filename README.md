@@ -1,4 +1,5 @@
 Wearloft: The Stylish Wardrobe Hub
+
 🛍️ Wearloft - Fashion E-commerce Website
 Wearloft is a modern and responsive fashion e-commerce website developed to provide a seamless and interactive shopping experience. It features stylish UI elements, intuitive navigation, and dynamic content interactions powered by JavaScript.
 
